@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <h1>Ekskursiya zamani</h1>
+    <div class="tab-container">
+        <div class="tab" id="tab1">Muzeylər</div>
+        <div class="tab" id="tab2">Parklar</div>
+        <div class="tab" id="tab3">Şəhər Turları</div>
+    </div>
+    <div class="tab-content" id="content1">
+        <h2>Muzeylər</h2>
+        <p>Şəhərin ən maraqlı muzeyləri haqqında məlumat.</p>
+    </div>
+    <div class="tab-content" id="content2">
+        <h2>Parklar</h2>
+        <p>Şəhərdəki gözəl parkların səyahətçilər üçün məlumatı.</p>
+    </div>
+    <div class="tab-content" id="content3">
+        <h2>Şəhər Turları</h2>
+        <p>Şəhərdə keçirilən turlar və turistlər üçün mövcud seçimlər haqqında məlumat.</p>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider">
+        <img src="./src/img/muzeyde.jpg">
+        <img src="./src/img/muzey.jpg">
+        <img src="./src/img/5.jpg">
+        <img src="./src/img/1610077_667780266610517_9052614107376534734_n.webp">
+        </div>
+        <div class="btn">
+            <i id="prevbtn" class="fa-solid fa-chevron-left"></i>
+            <i id="nextbtn" class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+        <img src="./src/img/1492151652_1225153_2f7994d80b510f8718d515606b301e1b_640x640.jpg">
+    
+        <img src="./src/img/park1 (1).jpg">
+
+        <img src="./src/img/1654683098_16546822472915844421_1000x669.jpg">
+        <img src="./src/img/park1.jpg">
+       </div>
+       <div class="btn">
+        <i id="prevbtn" class="fa-solid fa-chevron-left"></i>
+        <i id="nextbtn" class="fa-solid fa-chevron-right"></i>
+       </div>
+    </div> 
+    <div class="slider-container">
+        <div class="slider">
+        <img src="./src/img/download.jpg">
+        <img src="./src/img/16231004823891760be8c429a75d.jpg">
+
+        <img src="./src/img/16269539553323060f958e3194b0.jpeg">
+        <img src="./src/img/1649995932389506258f09c68114.jpg">
+
+       </div>
+        <div class="btn">
+        <i id="prevbtn" class="fa-solid fa-chevron-left"></i>
+        <i id="nextbtn" class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
+ 
+
+<h1>To-Do List</h1>
+<input type="text" id="taskInput" placeholder="Seciminizi əlavə edin">
+<button class="add" onclick="addTask()">Əlavə et</button>
+<ul id="taskList">
+</ul>
+</body>
+<script src="./src/js/app.js"></script>
+</html>
